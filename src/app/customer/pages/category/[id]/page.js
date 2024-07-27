@@ -130,7 +130,7 @@ const CategoryPage = () => {
         {filteredProducts.map((product) => (
           <div
             key={product.id}
-            className="bg-white shadow-md rounded-lg p-4 relative cursor-pointer"
+            className="bg-white shadow-md rounded-lg p-4 relative cursor-pointer h-80"
             onClick={() => handleProductClick(product.id)}
           >
             {product.images && product.images.length > 0 ? (
